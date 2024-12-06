@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/stars.gif'); /* Replace with the name of your downloaded image */
+    background-size: 100% ;
+    background-repeat: repeat;
+    font-family: "Pixelify Sans";
+}
+
+/*title*/
+header h1 {
+    position: absolute;
+    left: 900px;
+    margin-top: 50px;
+    font-family: "Pixelify Sans";
+    font-style: italic;
+    font-size: 150px;
+    text-align: right;
+    color: rgb(29, 8, 122);
+}
+
+/*title text1*/
+header p {
+    position: absolute;
+    top: 230px;
+    left: 1000px;
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 20px;
+    text-align: center;
+    color: rgb(29, 8, 122);
+}
+
+/*title text2*/
+header p2 {
+    position: absolute;
+    left: 930px;
+    top: 260px;
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 20px;
+    text-align: right;
+    color: rgb(29, 8, 122);
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*intro imgs*/
+.image img {
+    width: 650px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.intro-text {
+    position:absolute;
+    margin-top: 460px;
+    left: 1050px;
+    width: 500px; /* Set a fixed width to control text wrapping */
+    line-height: 1.2; /* Reduce spacing between lines */
+    font-family: "Poppins";
+    font-size: 80px; /* Adjust font size if needed */
+    text-align: justify; /* Align the text evenly on both sides */
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(29, 8, 122);
+}
+
+.header2 h2 {
+    color: rgb(29, 8, 122);
+    position: absolute;
+    margin-top: 360px;
+    right: 320px;
+    font-family: "Pixelify Sans";
+    font-style: italic;
+    font-size: 60px;
+}
+
+footer {
+    color: rgb(29, 8, 122);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*moodboard section*/
+.moodboard img {
+    width: 500px;
+}
+.img1 {
+    position: absolute;
+    top: 1100px;
+    right: 100px;
+}
+
+.img2 {
+    position: absolute;
+    top: 1250px;
+    right: 300px;
+}
+
+.img3 {
+    position: absolute;
+    top: 1150px;
+    right: 700px;
+}
+
+.header3 h3 {
+    color: rgb(29, 8, 122); 
+    position: absolute;
+    top: 1100px;
+    left: 230px;
+    font-family: "Pixelify Sans";
+    font-style: italic;
+    font-size: 60px;
+}
+
+.moodboard-text {
+    position:absolute;
+    margin-top: 1250px;
+    left: 150px;
+    width: 500px; /* Set a fixed width to control text wrapping */
+    line-height: 1.2; /* Reduce spacing between lines */
+    font-family: "Poppins";
+    font-size: 80px; /* Adjust font size if needed */
+    text-align: justify; /* Align the text evenly on both sides */
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(29, 8, 122);
+}
+
+/*initial designs section*/
+.initial img {
+    width: 800px;
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+}
+
+.header4 h4 {
+    position: absolute;
+    color: rgb(29, 8, 122);
+    font-family: "Pixelify Sans";
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 2100px;
+    right: 240px;
+}
+
+.initial-text {
+    position:absolute;
+    margin-top: 2200px;
+    right: 190px;
+    width: 500px; /* Set a fixed width to control text wrapping */
+    line-height: 1.2; /* Reduce spacing between lines */
+    font-family: "Poppins";
+    font-size: 80px; /* Adjust font size if needed */
+    text-align: justify; /* Align the text evenly on both sides */
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(29, 8, 122);
+}
+
+/*process section*/
+.process img {
+    width: 560px;
+    position: absolute;
+    top: 3000px;
+    left: 50px;
+}
+
+.process2 img {
+    width: 560px;
+    position: absolute;
+    top: 2800px;
+    right: 50px;
+    transform: scaleX(-1);
+}
+
+.header5 h5 {
+    position: absolute;
+    color: rgb(29, 8, 122) ;
+    font-family: "Pixelify Sans";
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 3000px;
+    right: 820px;
+}
+
+.process-text {
+    position:absolute;
+    margin-top: 3200px;
+    right: 700px;
+    width: 500px; /* Set a fixed width to control text wrapping */
+    line-height: 1.2; /* Reduce spacing between lines */
+    font-family: "Poppins";
+    font-size: 80px; /* Adjust font size if needed */
+    text-align: justify; /* Align the text evenly on both sides */
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(29, 8, 122);
+}
+
+/*final section*/
+.header6 h6 {
+    position: absolute;
+    color: rgb(29, 8, 122);
+    font-family: "Pixelify Sans";
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 4500px;
+    left: 100px;
+}
+
+.header7 h7 {
+    position: absolute;
+    color: rgb(29, 8, 122);
+    font-family: "Pixelify Sans";
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 4500px;
+    right: 100px;
+}
+
+.final img {
+    width: 1500px;
+    position: absolute;
+    top: 4050px;
+    left: 360px;
+    margin-bottom: 200px;
+}
